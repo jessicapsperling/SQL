@@ -1,0 +1,11 @@
+First I created a store database
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT,color TEXT, price INTEGER, quantity INTEGER);
+
+INSERT INTO store VALUES (1, "BikIe", "blue", 100, 4);
+INSERT INTO store VALUES (2, "Scooter", "white", 50, 3);
+INSERT INTO store VALUES (3, "Skates", "Pink", 30, 4);
+INSERT INTO store VALUES (4, "Tricycle", "green", 20, 5);
+INSERT INTO store VALUES (5, "Rolly", "Black", 60, 5);
+
+Ordered the database by price
+Select * From store WHERE price ORDER BY price
